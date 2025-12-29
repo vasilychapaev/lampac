@@ -1,0 +1,7 @@
+services:
+  lampac:
+    image: immisterio/lampac:arm64
+    container_name: lampac
+    restart: always
+    ports:
+      - "99:9118"
