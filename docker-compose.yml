@@ -1,6 +1,7 @@
 services:
   lampac:
-    image: immisterio/lampac:arm64
+    image: immisterio/lampac:amd64
+    # image: immisterio/lampac:arm64
     container_name: lampac
     restart: always
     ports:
